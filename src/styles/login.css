@@ -1,0 +1,123 @@
+.login {
+    position: relative;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.login-wrapper {
+    height: 100%;
+}
+
+.login-wrapper-before {
+    height: 93px;
+    padding: 27px 39px;
+    background-color: #00a884;
+}
+
+.login-icon {
+    display: inline-block;
+}
+
+.login-sign {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    color: #fff;
+    text-transform: uppercase;
+    vertical-align: middle;
+    margin-left: 14px;
+    cursor: default;
+    padding-bottom: 30px;
+
+}
+
+.login-window {
+    padding: 36px;
+
+}
+
+.login-window {
+    padding: 36px;
+}
+
+.login-window-wrapper {
+    width: 500px;
+    padding: auto;
+    margin: auto;
+}
+
+.login-title {
+    margin-bottom: 28px;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: normal;
+    color: #41525d;
+}
+
+.login-input {
+    width: 100%;
+}
+
+.login-input {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    margin-bottom: 16px;
+}
+
+.login-input::placeholder {
+    color: #212529;
+    opacity: 0.4;
+}
+
+.login-input:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
+.login-input_bad-input {
+    border: 1px solid rgb(189, 78, 78) !important;
+}
+
+.login-input_bad-input:focus {
+    box-shadow: 0 0 0 0.2rem rgba(163, 67, 67, 0.25) !important;
+}
+
+
+.login-button {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    height: 40px;
+    width: 100px;
+    border-radius: 9px;
+    float: right;
+    border: 2px solid transparent;
+    background: linear-gradient(to bottom, #03d6a8, #00a884);
+    transition: 0.5s;
+    color: #fff;
+}
+
+.login-button:hover {
+    border-color: #00a884;
+    cursor: pointer;
+}
